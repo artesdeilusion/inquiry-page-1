@@ -62,19 +62,7 @@ export default function DomainPage() {
       />
       <main className="min-h-screen bg-background flex items-center justify-center p-6">
       <div className="w-full max-w-md text-center">
-        {/* Logo */}
-        <div className="mb-6 flex justify-center">
-          <Image
-            src="/images/aydeed-logo.gif"
-            alt="Aydeed Logo"
-            width={120}
-            height={120}
-            loading="eager"
-            className="object-contain w-auto h-auto"
-            unoptimized
-          />
-        </div>
-
+       
         {/* Domain Name */}
         <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-foreground mb-4">
           aydeed
